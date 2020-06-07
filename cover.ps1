@@ -28,7 +28,7 @@ function script:exec {
 
 function dotnetTest([string[]] $asmAndIgnores)
 {
-    $filter = '\"[*TestAdapter*]*\"'
+    $filter = '\"[*TestAdapter*]*,[nunit]*\"'
     for ($i = 1; $i -lt $asmAndIgnores.Length; ++$i)
     {
         $filter += ",[" + $asmAndIgnores[$i] + "]*";
