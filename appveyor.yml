@@ -12,7 +12,7 @@ before_build:
 - cmd: nuget restore
 environment:
   CODECOV_REPO_TOKEN:
-    secure: TODO
+    secure: ClQCcBIXw9RQNuNPg5N2v8XSWW7KCBxn3Ym5O6v+e4pXdoMrr+tf5BZtJhQsGGeT
 configuration:
   - Release
 test_script:
@@ -34,5 +34,5 @@ for:
   deploy:
     provider: NuGet
     api_key:
-      secure: TODO
+      secure: lo9gC4NDoECBxAzgZZMFKklAQGmyL7VOIfMzPqRB1InlB4D5g4A+tSGUITR2pS6i
     skip_symbols: false

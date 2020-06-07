@@ -7,6 +7,11 @@
       <Description>Extension methods for MongoDB.Bson.Path that implement jsonpath. The code is a port of the jsonpath engine in Newtonsoft.Json.</Description>
       <Copyright>Copyright © James Newton-King 2008, Mark Weaver 2020</Copyright>
       <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageTags>jsonpath, bson, json</PackageTags>
+      <RepositoryUrl>https://github.com/blushingpenguin/MongoDB.Bson.Path</RepositoryUrl>
+      <RepositoryType>git</RepositoryType>
+      <IncludeSymbols>true</IncludeSymbols>
+      <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
