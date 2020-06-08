@@ -1,4 +1,4 @@
-[![ci.appveyor.com](https://ci.appveyor.com/api/projects/status/github/blushingpenguin/MongoDB.Bson.Path?branch=master&svg=true)](https://ci.appveyor.com/api/projects/status/github/blushingpenguin/MongoDB.Bson.Path?branch=master&svg=true)
+[![ci.appveyor.com](https://ci.appveyor.com/api/projects/status/github/blushingpenguin/MongoDB.Bson.Path?branch=master&svg=true)](https://ci.appveyor.com/project/blushingpenguin/mongodb-bson-path)
 [![codecov.io](https://codecov.io/gh/blushingpenguin/MongoDB.Bson.Path/coverage.svg?branch=master)](https://codecov.io/gh/blushingpenguin/MongoDB.Bson.Path?branch=master)
 
 # MongoDB.Bson.Path #
