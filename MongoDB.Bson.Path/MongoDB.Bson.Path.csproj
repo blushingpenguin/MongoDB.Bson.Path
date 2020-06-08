@@ -16,6 +16,8 @@
       <FileVersion>1.0.0.1</FileVersion>
       <PackageVersion>1.0.1</PackageVersion>
       <Version>1.0.1</Version>
+      <Authors>blushingpenguin</Authors>
+      <PackageProjectUrl>https://github.com/blushingpenguin/MongoDB.Bson.Path</PackageProjectUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
