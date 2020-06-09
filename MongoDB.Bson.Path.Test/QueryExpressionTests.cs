@@ -1,4 +1,4 @@
-﻿#region License
+#region License
 // Copyright (c) 2007 James Newton-King
 //
 // Permission is hereby granted, free of charge, to any person
@@ -161,7 +161,7 @@ namespace MongoDB.Bson.Path.Test
             Assert.IsTrue(e2.IsMatch(null, new BsonArray { 2, 3, 4, 5 }));
             Assert.IsTrue(e2.IsMatch(null, new BsonArray { 3, 4, 5 } ));
             Assert.IsFalse(e2.IsMatch(null, new BsonArray { 4, 5 } ));
-            Assert.IsFalse(e1.IsMatch(null, new BsonArray { "11", 5 } ));
+            Assert.IsFalse(e2.IsMatch(null, new BsonArray { "11", 5 } ));
         }
 
         [Test]

@@ -1216,7 +1216,6 @@ namespace MongoDB.Bson.Path.Test
                     )
                 }
             };
-            var ffs = o.ToString();
 
             var t = o.SelectTokens("$.prop[?(@.childProp =='ff2dc672-6e15-4aa2-afb0-18f4f69596ad')]").ToList();
             Assert.AreEqual(2, t.Count);
