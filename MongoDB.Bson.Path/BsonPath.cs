@@ -23,11 +23,8 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Text;
 
@@ -574,7 +571,7 @@ namespace MongoDB.Bson.Path
             throw new BsonException("Path ended with open query.");
         }
 
-        // [NotNullWhen(returnValue: true)] 
+        // [NotNullWhen(returnValue: true)]
         private bool TryParseValue(out object? value)
         {
             char currentChar = _expression[_currentIndex];

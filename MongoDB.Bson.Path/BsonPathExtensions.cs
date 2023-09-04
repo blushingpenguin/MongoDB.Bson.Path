@@ -23,13 +23,7 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
-using MongoDB.Bson;
-using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Text;
 
 namespace MongoDB.Bson.Path
 {

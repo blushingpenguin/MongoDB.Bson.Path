@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Globalization;
-using MongoDB.Bson;
 
 namespace MongoDB.Bson.Path
 {
